@@ -6,7 +6,7 @@
 # Martin Trigaux <mat@odoo.com>, 2016
 # Mustafa Rawi <mustafa@cubexco.com>, 2016
 # Ghaith Gammar <contact.saharaips@gmail.com>, 2016
-# hoxhe aits <hoxhe0@gmail.com>, 2016
+# hoxhe Aits <hoxhe0@gmail.com>, 2016
 # amrnegm <amrnegm.01@gmail.com>, 2016
 # Osama Ahmaro <osamaahmaro@gmail.com>, 2016
 # Ali zuaby <ali@zuaby.net>, 2016
@@ -15,13 +15,16 @@
 # Mohammed Albasha <m.albasha.ma@gmail.com>, 2016
 # Akram Alfusayal <akram_ma@hotmail.com>, 2016
 # mohammed rabea <moh.rabea@gmail.com>, 2016
+# Abd El-Rahman Ali <abdelrahman.ali.242@gmail.com>, 2016
+# Hossam Esam <hossamesam17@gmail.com>, 2016
+# Shaima Safar <shaima.safar@open-inside.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:57+0000\n"
 "PO-Revision-Date: 2016-09-07 08:57+0000\n"
-"Last-Translator: mohammed rabea <moh.rabea@gmail.com>, 2016\n"
+"Last-Translator: Shaima Safar <shaima.safar@open-inside.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +85,7 @@ msgstr "نشط"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:114
 #, python-format
 msgid "Activities Done"
-msgstr ""
+msgstr "الأنشطة المكتملة"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.view_sale_config_settings
@@ -128,7 +131,7 @@ msgstr "انقر هنا لتعريف مندوب مبيعات جديد "
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:182
 #, python-format
 msgid "Click to set"
-msgstr ""
+msgstr "انقر لضبط"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_color
@@ -243,7 +246,7 @@ msgstr "تابع هذا الفريق لتصلك تنبيهات بكافة الأ
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:214
 #, python-format
 msgid "Great sales journeys start with a clean pipeline."
-msgstr ""
+msgstr "المبيعات الناجحة تبدأ بخطة منظمة"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
@@ -255,7 +258,7 @@ msgstr "تجميع حسب ..."
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:213
 #, python-format
 msgid "Hi there!"
-msgstr ""
+msgstr "أهلا بك!"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_id
@@ -277,6 +280,7 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the sales "
 "team without removing it."
 msgstr ""
+"حالة ضبط الحقل النشط إلى خطأ، وسوف تسمح لك لإخفاء فريق المبيعات دون إزالته."
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
@@ -301,7 +305,7 @@ msgstr "آخر تعديل في"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:188
 #, python-format
 msgid "Last Month"
-msgstr ""
+msgstr "آخر شهر"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_write_uid
@@ -335,12 +339,12 @@ msgstr "الاجتماعات"
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_salesteams_view_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-caret-down\"/> أخرى"
 
 #. module: sales_team
 #: model:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "More Info"
-msgstr ""
+msgstr "معلومات أخرى"
 
 #. module: sales_team
 #. openerp-web
@@ -361,7 +365,7 @@ msgstr "فريقي"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:50
 #, python-format
 msgid "Next 7 days"
-msgstr ""
+msgstr "7 أيام القادمة"
 
 #. module: sales_team
 #. openerp-web
@@ -510,7 +514,7 @@ msgstr "قائمة الأسعار سوف تستخدم، بدلاً عن الاف
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:76
 #, python-format
 msgid "To Activities"
-msgstr ""
+msgstr "إلي الأنشطة"
 
 #. module: sales_team
 #. openerp-web
@@ -518,7 +522,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:189
 #, python-format
 msgid "To Activity Report"
-msgstr ""
+msgstr "إالي تقارير الأنشطة"
 
 #. module: sales_team
 #. openerp-web
@@ -526,7 +530,7 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:51
 #, python-format
 msgid "To Calendar"
-msgstr ""
+msgstr "إلي التاريخ"
 
 #. module: sales_team
 #. openerp-web
@@ -534,14 +538,14 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:199
 #, python-format
 msgid "To Invoice Report"
-msgstr ""
+msgstr "إلي تقارير فواتير المبيعات"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:86
 #, python-format
 msgid "To Opportunities"
-msgstr ""
+msgstr "إلى الفرص المتاحة"
 
 #. module: sales_team
 #. openerp-web
@@ -549,14 +553,14 @@ msgstr ""
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:194
 #, python-format
 msgid "To Opportunity Report"
-msgstr ""
+msgstr "إلى فرصة التقرير"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:13
 #, python-format
 msgid "To do"
-msgstr ""
+msgstr "المهام المراد تنفيذها"
 
 #. module: sales_team
 #. openerp-web
@@ -574,6 +578,9 @@ msgid ""
 "                    departments into separate teams. Each team will work in\n"
 "                    its own list of opportunities."
 msgstr ""
+"استخدام فريق المبيعات لتنظيم مبيعات مختلفة أو\n"
+"الإدارات في فرق منفصلة. وسيعمل كل فريق في\n"
+"وقائمة خاصة بها من الفرص."
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman_all_leads
@@ -593,14 +600,14 @@ msgstr "المستخدمون"
 #. module: sales_team
 #: model:crm.team,name:sales_team.salesteam_website_sales
 msgid "Website Sales"
-msgstr ""
+msgstr "مبيعات الموقع"
 
 #. module: sales_team
 #. openerp-web
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:127
 #, python-format
 msgid "Won in Opportunities"
-msgstr ""
+msgstr "ربح في الفرص المتاحة"
 
 #. module: sales_team
 #. openerp-web
@@ -631,7 +638,7 @@ msgstr "المتأخر"
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_sale_config_settings
 msgid "sale.config.settings"
-msgstr ""
+msgstr "تخفيض السعر. التكوين. إعدادات"
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman_all_leads

@@ -6,8 +6,8 @@
 # Simone Bernini <simone@aperturelabs.it>, 2016
 # Martin Trigaux <mat@odoo.com>, 2016
 # p_amoruso <p.amoruso@elvenstudio.it>, 2016
-# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2016
 # Paolo Valier <paolo.valier@hotmail.it>, 2016
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2016
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2016
 # Maurizio Schiavo <inactive+MaurizioSchiavo@transifex.com>, 2016
 # Monica Parvanova <monicaparvanova@gmail.com>, 2016
@@ -529,7 +529,7 @@ msgstr "Configura Odoo usando i moduli standard."
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_mail_template_id
 msgid "Confirmation Mail"
-msgstr ""
+msgstr "Mail di Conferma"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -832,13 +832,15 @@ msgstr ""
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Immediate after website order validation"
-msgstr "Obbligatorio nel momento in cui viene accettato il preventivo online."
+msgstr "Immediato nel momento in cui viene accettato l'ordine online"
 
 #. module: website_quote
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Immediate after website order validation and save a token"
 msgstr ""
+"Immediato nel momento in cui viene accettato l'ordine online e salva un "
+"token"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -999,7 +1001,7 @@ msgstr "Gestione multi lingua"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "My Quotations"
-msgstr ""
+msgstr "I miei Preventivi"
 
 #. module: website_quote
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
@@ -1016,7 +1018,7 @@ msgstr "Nuova esperienza di apprendimento interattiva"
 #: selection:sale.quote.template,require_payment:0
 msgid "Not mandatory on website quote validation"
 msgstr ""
-"Non obbligatorio nel momento in cui viene accettato il preventivo online."
+"Non obbligatorio nel momento in cui viene accettato il preventivo online"
 
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_template_number_of_days
@@ -1102,7 +1104,7 @@ msgstr "Ordine firmato da %s"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Other Settings"
-msgstr ""
+msgstr "Altre Impostazioni"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -1282,7 +1284,7 @@ msgstr "Validità preventivo"
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_quote_option
 msgid "Quotation Option"
-msgstr ""
+msgstr "Opzione Preventivo"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_template_id
@@ -1352,7 +1354,7 @@ msgstr "Richiedi pagamento al cliente non appena accetta il preventivo online"
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 #: model:sale.quote.option,website_description:website_quote.website_sale_option_line_1
 msgid "Requirements"
-msgstr "Assunzioni"
+msgstr "Requisiti"
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_order_option
@@ -1733,7 +1735,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "Your payment has been authorized."
-msgstr ""
+msgstr "Il tuo pagamento è stato autorizzato."
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation

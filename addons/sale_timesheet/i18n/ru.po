@@ -3,16 +3,6 @@
 # * sale_timesheet
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2016
-# OstapYakovenko <Ostap.Yakovenko@gmail.com>, 2016
-# Danil Bochevkin <danil.borchevkin@gmail.com>, 2016
-# Sergey Vilizhanin <sv@grimmette.ru>, 2016
-# dr&mx <dronmax@gmail.com>, 2016
-# Max Belyanin <maxbelyanin@gmail.com>, 2016
-# Denis Trepalin <zekarious@gmail.com>, 2016
-# Gennady Marchenko <gennadym@gmail.com>, 2016
-# Viktor Pogrebniak <vp@aifil.ru>, 2016
-# Artur Komishenko <Archi1792@gmail.com>, 2016
 # Эдуард Манятовский <manyatovskiy@gmail.com>, 2016
 msgid ""
 msgstr ""
@@ -50,6 +40,8 @@ msgid ""
 "Create a task under this project on sale order validation. This setting must"
 " be set for each company."
 msgstr ""
+"Создайте задачу в рамках этого проекта для проверки порядка продажи. Этот "
+"параметр должен быть установлен для каждой компании."
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_hr_employee
@@ -107,7 +99,7 @@ msgstr "Проект"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_project_project_id
 msgid "Project associated to this sale"
-msgstr ""
+msgstr "Проект, связанный с этой продажи"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_sale_order
@@ -133,6 +125,8 @@ msgstr "Задача"
 msgid ""
 "Task Created (%s): <a href=# data-oe-model=project.task data-oe-id=%d>%s</a>"
 msgstr ""
+"Созданная задача (%s): <a href=# data-oe-model=project.task data-oe-"
+"id=%d>%s</a>"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_tasks_count
@@ -152,6 +146,8 @@ msgid ""
 "This task has been created from: <a href=# data-oe-model=sale.order data-oe-"
 "id=%d>%s</a> (%s)"
 msgstr ""
+"Эта задача была создана из: <a href=# data-oe-model=sale.order data-oe-"
+"id=%d>%s</a> (%s)"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.project_time_mode_id_duplicate_xmlid
@@ -159,18 +155,18 @@ msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
-"Это установит единицу измерения, используемую в проектах и задачах. \n"
-"Если вы используете расписание, ссылающееся на проекты, не забудьте установить правильную единицу измерения для ваших сотрудников."
+"Устанавливает единицу измерения, используемую в проектах и задачах. \n"
+"Если вы используете связанный с проектом табель, не забудьте установить правильную единицу измерения для ваших сотрудников."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_hr_employee_timesheet_cost
 msgid "Timesheet Cost"
-msgstr "Расписание Стоимость"
+msgstr "Стоимость по табелю"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.project_time_mode_id_duplicate_xmlid
 msgid "Timesheet UoM"
-msgstr "Единица измерения расписания"
+msgstr "Ед. изм. табеля"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_timesheet_count
@@ -180,7 +176,7 @@ msgstr "Расписание мероприятий"
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_timesheet_ids
 msgid "Timesheet activities associated to this sale"
-msgstr "Расписание мероприятий этой продажи"
+msgstr "Табель мероприятий этой продажи"
 
 #. module: sale_timesheet
 #: model:ir.ui.view,arch_db:sale_timesheet.hr_timesheet_employee_extd_form
@@ -231,9 +227,9 @@ msgid ""
 "should split your order to include only one contract based on time and "
 "material."
 msgstr ""
-"Вы можете использовать только один продукт в расписании в пределах того же "
-"заказа продажи. Вы должны разделить ваш заказ, чтобы включить только один "
-"контракт основанный на времени и материале."
+"Вы можете использовать только один продукт в табеле для того же заказа "
+"продажи. Вы должны разделить ваш заказ, чтобы включить только один договор "
+"основанный на времени и материале."
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/project.py:17

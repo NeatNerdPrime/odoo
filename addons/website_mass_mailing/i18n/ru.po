@@ -29,7 +29,7 @@ msgid ""
 "<strong>Newsletter Popup!</strong> The newsletter popup snippet effect is "
 "active on this page. Click"
 msgstr ""
-"<strong>Всплывающий Бюллетень!</strong> Эффект фрагмента всплывающего окна "
+"<strong>Всплывающий бюллетень!</strong> Эффект фрагмента всплывающего окна "
 "бюллетени активен на этой странице. Нажмите"
 
 #. module: website_mass_mailing
@@ -156,9 +156,19 @@ msgid "You are not subscribed to any of our mailing list."
 msgstr "Вы не подписаны на какой-либо из нашего списка рассылки."
 
 #. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:155
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribed
+#, python-format
 msgid "Your changes have been saved."
 msgstr "Изменения были успешно сохранены"
+
+#. module: website_mass_mailing
+#. openerp-web
+#: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:158
+#, python-format
+msgid "Your changes have not been saved, try again later."
+msgstr "Ваши изменения не были сохранены, повторите попытку позже."
 
 #. module: website_mass_mailing
 #: model:ir.model,name:website_mass_mailing.model_mass_mailing_config_settings

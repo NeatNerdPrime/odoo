@@ -3,7 +3,7 @@
 # * mrp
 # 
 # Translators:
-# dr&mx <dronmax@gmail.com>, 2016
+# Максим Дронь <dronmax@gmail.com>, 2016
 # KingOPl Slav <87slava13@gmail.com>, 2016
 # Masha Koc <mariya.kos.ua@gmail.com>, 2016
 # Sergey Vilizhanin <sv@grimmette.ru>, 2016
@@ -17,13 +17,15 @@
 # Andrey Skabelin <inactive+a.skabelin@transifex.com>, 2016
 # Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2016
 # Danil Bochevkin <danil.borchevkin@gmail.com>, 2016
+# Артур Чеботарь <artcha.chebotar@gmail.com>, 2017
+# Эдуард Манятовский <manyatovskiy@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-10 08:42+0000\n"
 "PO-Revision-Date: 2016-10-10 08:42+0000\n"
-"Last-Translator: Danil Bochevkin <danil.borchevkin@gmail.com>, 2016\n"
+"Last-Translator: Эдуард Манятовский <manyatovskiy@gmail.com>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -279,7 +281,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_active
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
 msgid "Active"
-msgstr "Активен"
+msgstr "Активно"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_active_move_lot_ids
@@ -1112,7 +1114,7 @@ msgstr "Позволяет отображать порядок последов�
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 msgid "Group By"
-msgstr "Группировать по"
+msgstr "Группировать"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_search_view
@@ -1121,13 +1123,13 @@ msgstr "Группировать по"
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Group By..."
-msgstr "Объединять по..."
+msgstr "Группировать…"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Group by..."
-msgstr "Объединять по..."
+msgstr "Группировать…"
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_19
@@ -3479,11 +3481,27 @@ msgstr ""
 "Пожалуйста, прежде закройте или отмените его."
 
 #. module: mrp
-#: code:addons/mrp/models/stock_move.py:123
+#: code:addons/mrp/models/stock_move.py:40
+#, python-format
+msgid "You can only produce 1.0 %s for products with unique serial number."
+msgstr ""
+"Вы можете производить только 1.0 %s для продуктов с уникальным серийным "
+"номером."
+
+#. module: mrp
+#: code:addons/mrp/models/stock_move.py:135
 #, python-format
 msgid "You cannot cancel a move move having already consumed material"
 msgstr ""
 "Нельзя отменить перемещение или переместить уже переработанный материал"
+
+#. module: mrp
+#: code:addons/mrp/models/stock_move.py:40
+#, python-format
+msgid "You cannot use the same serial number in two different lines."
+msgstr ""
+"Вы не можете использовать один и тот же серийный номер в двух разных "
+"строках."
 
 #. module: mrp
 #: code:addons/mrp/wizard/change_production_qty.py:44

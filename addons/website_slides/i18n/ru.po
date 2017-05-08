@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Эдуард Манятовский <manyatovskiy@gmail.com>, 2016
-# dr&mx <dronmax@gmail.com>, 2016
+# Максим Дронь <dronmax@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-10 08:44+0000\n"
 "PO-Revision-Date: 2016-10-10 08:44+0000\n"
-"Last-Translator: dr&mx <dronmax@gmail.com>, 2016\n"
+"Last-Translator: Максим Дронь <dronmax@gmail.com>, 2016\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -335,7 +335,7 @@ msgstr "Действия"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_active
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_active
 msgid "Active"
-msgstr "Действия"
+msgstr "Активно"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_channel_view_search
@@ -351,7 +351,7 @@ msgstr "Только зарегистрированные пользовател
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
 msgid "Awesome Timesheet by Odoo"
-msgstr "Удивительный Timesheet от Odoo"
+msgstr "Удивительный табель от Odoo"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_can_see
@@ -590,7 +590,7 @@ msgid ""
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"Скачать Удивительный Расписание Odoo и узнайте, как легко отслеживания времени и работник управления может быть!\n"
+"Скачайте «Удивительный табель» Odoo и узнайте, как можно легко учитывать время и работу!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -708,7 +708,7 @@ msgstr "График слайдов"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Group By"
-msgstr "Группировать по"
+msgstr "Группировать"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_group_ids
